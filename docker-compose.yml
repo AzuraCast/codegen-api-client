@@ -1,0 +1,5 @@
+services:
+  codegen:
+    image: swaggerapi/swagger-codegen-cli-v3:latest
+    volumes:
+     - ${PWD}:/local
